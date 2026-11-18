@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>5x3 Colored Button Grid</title>
+    <title>5x4 Colored Button Grid</title>
     <style>
       /* Grid container: creates 3 equal columns */
       .button-grid {
@@ -15,14 +15,42 @@
       }
 
       /* Shared styling for all buttons */
-      .btn {
+      .btn-1,
+      .btn-7,
+      .btn-11,
+      .btn-17,
+      .btn-3,
+      .btn-13,
+      .btn-9,
+      .btn-19,
+      .btn-5,
+      .btn-15 {
         padding: 16px 20px;
         font-size: 16px;
         font-weight: bold;
         color: white;
         border: none;
         border-radius: 100px;
-        cursor: pointer;
+        cursor: wait;
+        transition: opacity 0.2s ease;
+      }
+      .btn-6,
+      .btn-16,
+      .btn-2,
+      .btn-12,
+      .btn-8,
+      .btn-18,
+      .btn-4,
+      .btn-14,
+      .btn-10,
+      .btn-20 {
+        padding: 16px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 100px;
+        cursor: help;
         transition: opacity 0.2s ease;
       }
 
@@ -35,49 +63,62 @@
         background-color: #850505;
       }
       .btn-2 {
-        background-color: #c32424;
-      }
-      .btn-3 {
-        background-color: #d5291c;
-        color: #222;
-      }
-      .btn-4 {
         background-color: #cf5d00;
       }
+      .btn-3 {
+        background-color: #058115;
+      }
+      .btn-4 {
+        background-color: #0072b0;
+      }
       .btn-5 {
-        background-color: #d7721a;
+        background-color: #5a297f;
       }
       .btn-6 {
         background-color: #c32424;
       }
       .btn-7 {
-        background-color: #457a04;
+        background-color: #dd8839;
       }
       .btn-8 {
-        background-color: #2d9e2f;
+        background-color: #4bb132;
       }
       .btn-9 {
-        background-color: #1b9537;
+        background-color: #249eac;
       }
       .btn-10 {
-        background-color: #0072b0;
+        background-color: #7236d3;
       }
       .btn-11 {
         background-color: #d5291c;
       }
       .btn-12 {
-        background-color: #294a9b;
+        background-color: #e57d0d;
       }
       .btn-13 {
-        background-color: #4c00b0;
+        background-color: #5bb204;
       }
       .btn-14 {
-        background-color: #5a297f;
+        background-color: #21a2de;
       }
       .btn-15 {
-        background-color: #6b2e83;
+        background-color: #7e4097;
       }
-      /* blue #23779b, orange #da7707 #cf5d00 #d7721a , */
+      .btn-16 {
+        background-color: #865754;
+      }
+      .btn-17 {
+        background-color: #93724e;
+      }
+      .btn-18 {
+        background-color: #526340;
+      }
+      .btn-19 {
+        background-color: #395460;
+      }
+      .btn-20 {
+        background-color: #4b3753;
+      }
     </style>
   </head>
   <body>
@@ -86,24 +127,29 @@
       <button class="btn btn-1">1</button>
       <button class="btn btn-2">2</button>
       <button class="btn btn-3">3</button>
-
-      <!-- Row 2 -->
       <button class="btn btn-4">4</button>
       <button class="btn btn-5">5</button>
-      <button class="btn btn-6">6</button>
 
-      <!-- Row 3 -->
+      <!-- Row 2 -->
+      <button class="btn btn-6">6</button>
       <button class="btn btn-7">7</button>
       <button class="btn btn-8">8</button>
       <button class="btn btn-9">9</button>
-
       <button class="btn btn-10">10</button>
+
+      <!-- Row 3 -->
       <button class="btn btn-11">11</button>
       <button class="btn btn-12">12</button>
-
       <button class="btn btn-13">13</button>
       <button class="btn btn-14">14</button>
       <button class="btn btn-15">15</button>
+
+      <!-- Row 4 -->
+      <button class="btn btn-16">16</button>
+      <button class="btn btn-17">17</button>
+      <button class="btn btn-18">18</button>
+      <button class="btn btn-19">19</button>
+      <button class="btn btn-20">20</button>
     </div>
   </body>
 </html>
